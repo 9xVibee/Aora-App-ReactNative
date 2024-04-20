@@ -7,8 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text className="text-2xl font-pblack">Index js!</Text>
       <StatusBar style="auto" />
-      <Link href={"/profile"} className="text-blue-600 text-xl">
-        Go to profile
+      <Link href={"/home"} className="text-blue-600 text-xl">
+        Go to home
       </Link>
     </View>
   );
